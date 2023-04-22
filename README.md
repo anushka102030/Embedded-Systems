@@ -88,3 +88,9 @@ The app can be extended to MacOS and Linux systems (see next section). We also p
 - **Scripts**: The batch scripts *run.bat* and *install-dependencies.bat* only work on Windows. On MacOS/Linux, these can be replaced by bash scripts, although we have not implemented these.
 - **Admin Mode**: While the programs run in admin mode for Windows, they must be run with [sudo permissions](https://en.wikipedia.org/wiki/Sudo) in Linux/MacOS.
 
+## Contributors
+- [Anushka Kulkarni](https://github.com/anushka102030)
++ [Rishil Patel](https://github.com/r15hil)
+* [Aaman Rebello](https://github.com/aamanrebello)
+- [Victor Florea](https://github.com/VFjr)
+
