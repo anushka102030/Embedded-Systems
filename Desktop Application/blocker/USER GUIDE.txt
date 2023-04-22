@@ -1,0 +1,14 @@
+BLOCKING WEBSITES-----------------------------------------------------------------------------------------------
+
+
+Test-loop is a program that can be run to check that site blocking works ok. Start a command prompt,
+cd to this directory and run '''python Test-loop.py'''. It will attempt to block the sites in sites.txt
+on your system.
+
+
+sites.txt lists the site URLs that will be blocked when Alcolock thinks you are highly intoxicated (red region of graph 
+display). Each URL is begun on a new line. Editing the file while the Alcolock program is running will not have 
+any effect on site blocking - it must be edited beforehand (hopefully when you're sober).
+
+medium.txt lists sites that will be blocked when Alcolock thinks you are slightly drunk (yellow region of graph display).
+The format is the same as sites.txt.

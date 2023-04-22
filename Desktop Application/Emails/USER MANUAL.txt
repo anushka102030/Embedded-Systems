@@ -1,0 +1,28 @@
+EMAILS AND RECIPIENTS------------------------------------------------------------------------------
+
+
+Folder Config
+
+In userconfig.json, you specify your email address (under field "user"), your password (under field "password")
+and the platform you want to use to send the email e.g. gmail, outlook, yahoo (under field "server"). 
+NOTE: Make sure that you don't let other people see this file as they will be able to find out your email password! 
+
+In Recipients.csv, you list all the people you want to send emails to, their email address and the subject of the email.
+The three columns in the excel file correspond to these details. You can list as many people as you like.
+
+Emailbindings.json links different platforms to the URLs of their smtp servers. If you have knowledge in this domain, you can
+add more bindings (e.g. if you want to use yahoo, you need to find the URL of the smtp server for yahoo and add it to the file).
+
+
+
+Folder Messages
+
+This folder contains all the messages that you want to send to different people. You create a different text (.txt extension)
+file for each recipient in which you write what you want to send to that person. You can do this using any text editor. The file
+should be called {recipient name}_email.txt. For example, an email for Mr Anderson would result in the file "Mr Anderson_email.txt".
+
+
+ADDITIONAL NOTES:
+Initially Gmail will not allow you to sed emails using this application. There is a small setting on your Google account that you
+need to adjust. To fid out more, go to: https://support.google.com/accounts/answer/6010255#zippy=%2Cif-less-secure-app-access-is-on-for-your-account
+

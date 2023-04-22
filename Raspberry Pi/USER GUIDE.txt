@@ -1,0 +1,6 @@
+RASPERRY PI EMEDDED SYSTEM-----------------------------------------------------------------------------------------
+
+The code here SHOULD NOT BE MODIFIED. It is the code that takes in the breathalyser readings and sends them 
+to the desktop application.
+
+The protocol used is MQTT, secured with TLS encryption.
